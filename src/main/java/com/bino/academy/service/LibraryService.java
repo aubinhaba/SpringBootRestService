@@ -9,7 +9,6 @@ import com.bino.academy.controller.Library;
 import com.bino.academy.repository.LibraryRepository;
 @Service
 public class LibraryService {
-
 	@Autowired
 	LibraryRepository repository;
 	public String buildId(String isbn,int aisle)
@@ -18,7 +17,6 @@ public class LibraryService {
 		{
 			return "OLD"+isbn+aisle;
 		}
-		
 		return isbn+aisle;
 	}
 	public boolean checkBookAlreadyExist(String id)
@@ -28,8 +26,6 @@ public class LibraryService {
 			return true;
 		else
 			return false;
-		
-		
 	}
 	public Library getBookById(String id)
 	{
