@@ -62,7 +62,7 @@ public class LibraryController {
 		
 		}
 	
-	@GetMapping("/getBooks/{id}")
+	@GetMapping("/getBook/{id}")
 	public Library getBookById(@PathVariable(value="id")String id)
 	{
 		try {
