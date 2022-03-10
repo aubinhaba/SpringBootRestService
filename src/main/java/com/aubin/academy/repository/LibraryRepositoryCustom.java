@@ -1,8 +1,8 @@
-package com.rahulshettyacademy.repository;
+package com.aubin.academy.repository;
 
 import java.util.List;
 
-import com.rahulshettyacademy.controller.Library;
+import com.aubin.academy.controller.Library;
 
 public interface LibraryRepositoryCustom {
 	

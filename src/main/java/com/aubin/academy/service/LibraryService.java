@@ -1,12 +1,12 @@
-package com.rahulshettyacademy.service;
+package com.aubin.academy.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.rahulshettyacademy.controller.Library;
-import com.rahulshettyacademy.repository.LibraryRepository;
+import com.aubin.academy.controller.Library;
+import com.aubin.academy.repository.LibraryRepository;
 @Service
 public class LibraryService {
 
