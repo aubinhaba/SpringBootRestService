@@ -1,12 +1,11 @@
 package com.bino.academy.service;
 
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.bino.academy.controller.Library;
 import com.bino.academy.repository.LibraryRepository;
+
 @Service
 public class LibraryService {
 	@Autowired
@@ -15,7 +14,7 @@ public class LibraryService {
 	{
 		if(isbn.startsWith("Z"))
 		{
-			return "old"+isbn+aisle;
+			return "old" + isbn + aisle;
 		}
 		return isbn+aisle;
 	}
