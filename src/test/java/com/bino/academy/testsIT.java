@@ -1,4 +1,4 @@
-package com.aubin.academy;
+package com.bino.academy;
 
 import org.json.JSONException;
 import org.junit.Assert;
@@ -12,7 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
-import com.aubin.academy.controller.Library;
+import com.bino.academy.controller.Library;
 
 @SpringBootTest
 public class testsIT {

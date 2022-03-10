@@ -1,8 +1,8 @@
-package com.aubin.academy.controller;
+package com.bino.academy.controller;
 
 import java.util.List;
 
-import com.aubin.academy.service.LibraryService;
+import com.bino.academy.service.LibraryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
-import com.aubin.academy.repository.LibraryRepository;
+import com.bino.academy.repository.LibraryRepository;
 
 
 @RestController

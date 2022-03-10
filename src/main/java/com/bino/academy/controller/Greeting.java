@@ -1,4 +1,4 @@
-package com.aubin.academy.controller;
+package com.bino.academy.controller;
 
 import org.springframework.stereotype.Component;
 @Component

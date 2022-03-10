@@ -1,4 +1,4 @@
-package com.aubin.academy;
+package com.bino.academy;
 
 
 
@@ -19,10 +19,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import java.util.ArrayList;
 import java.util.List;
 
-import com.aubin.academy.controller.Library;
-import com.aubin.academy.controller.LibraryController;
-import com.aubin.academy.repository.LibraryRepository;
-import com.aubin.academy.service.LibraryService;
+import com.bino.academy.controller.Library;
+import com.bino.academy.controller.LibraryController;
+import com.bino.academy.repository.LibraryRepository;
+import com.bino.academy.service.LibraryService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -34,7 +34,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.web.servlet.MockMvc;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.aubin.academy.controller.AddResponse;
+import com.bino.academy.controller.AddResponse;
 
 
 @SpringBootTest

@@ -1,4 +1,4 @@
-package com.aubin.academy.controller;
+package com.bino.academy.controller;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

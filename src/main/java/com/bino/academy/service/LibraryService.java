@@ -1,12 +1,12 @@
-package com.aubin.academy.service;
+package com.bino.academy.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.aubin.academy.controller.Library;
-import com.aubin.academy.repository.LibraryRepository;
+import com.bino.academy.controller.Library;
+import com.bino.academy.repository.LibraryRepository;
 @Service
 public class LibraryService {
 

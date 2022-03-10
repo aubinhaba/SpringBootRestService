@@ -1,10 +1,10 @@
-package com.aubin.academy;
+package com.bino.academy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.aubin.academy.repository.LibraryRepository;
+import com.bino.academy.repository.LibraryRepository;
 
 
 

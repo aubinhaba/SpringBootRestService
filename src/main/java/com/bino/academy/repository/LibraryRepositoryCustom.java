@@ -1,8 +1,8 @@
-package com.aubin.academy.repository;
+package com.bino.academy.repository;
 
 import java.util.List;
 
-import com.aubin.academy.controller.Library;
+import com.bino.academy.controller.Library;
 
 public interface LibraryRepositoryCustom {
 	

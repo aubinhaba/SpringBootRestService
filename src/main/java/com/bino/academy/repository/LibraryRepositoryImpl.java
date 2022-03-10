@@ -1,11 +1,11 @@
-package com.aubin.academy.repository;
+package com.bino.academy.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.aubin.academy.controller.Library;
+import com.bino.academy.controller.Library;
 
 public class LibraryRepositoryImpl implements LibraryRepositoryCustom{
 	
