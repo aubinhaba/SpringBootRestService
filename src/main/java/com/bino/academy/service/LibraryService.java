@@ -15,7 +15,7 @@ public class LibraryService {
 	{
 		if(isbn.startsWith("Z"))
 		{
-			return "OLD"+isbn+aisle;
+			return "old"+isbn+aisle;
 		}
 		return isbn+aisle;
 	}
